@@ -14,12 +14,14 @@ struct TestView : View {
     var body: some View {
         VStack.init(alignment: .leading, spacing: 8) {
             Text("\(viewModel.datas.last?.subTitle ?? "1233")")
+            .font(.system(.title))
             Button.init("add") {
                 self.viewModel.addData()
             }
             Button.init("remove") {
                 self.viewModel.removeData()
             }
+            
         }
     }
 }
