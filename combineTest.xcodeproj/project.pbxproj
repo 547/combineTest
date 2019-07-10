@@ -18,6 +18,8 @@
 		E612CB1822D43EBC00CF7DA2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612CB1722D43EBC00CF7DA2 /* ViewModel.swift */; };
 		E612CB1A22D43ED100CF7DA2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612CB1922D43ED100CF7DA2 /* Model.swift */; };
 		E612CB1E22D43F2700CF7DA2 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612CB1D22D43F2700CF7DA2 /* TestView.swift */; };
+		E612CB2222D5D73200CF7DA2 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612CB2122D5D73200CF7DA2 /* CountdownView.swift */; };
+		E612CB2422D5D74D00CF7DA2 /* CountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612CB2322D5D74D00CF7DA2 /* CountdownViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		E612CB1722D43EBC00CF7DA2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		E612CB1922D43ED100CF7DA2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		E612CB1D22D43F2700CF7DA2 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		E612CB2122D5D73200CF7DA2 /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
+		E612CB2322D5D74D00CF7DA2 /* CountdownViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				E612CB1722D43EBC00CF7DA2 /* ViewModel.swift */,
+				E612CB2322D5D74D00CF7DA2 /* CountdownViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				E612CB1D22D43F2700CF7DA2 /* TestView.swift */,
+				E612CB2122D5D73200CF7DA2 /* CountdownView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -300,9 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E612CB2422D5D74D00CF7DA2 /* CountdownViewModel.swift in Sources */,
 				E612CB1E22D43F2700CF7DA2 /* TestView.swift in Sources */,
 				E612CB1A22D43ED100CF7DA2 /* Model.swift in Sources */,
 				E612CAE522D43E3000CF7DA2 /* AppDelegate.swift in Sources */,
+				E612CB2222D5D73200CF7DA2 /* CountdownView.swift in Sources */,
 				E612CAE722D43E3000CF7DA2 /* SceneDelegate.swift in Sources */,
 				E612CB1822D43EBC00CF7DA2 /* ViewModel.swift in Sources */,
 				E612CAE922D43E3000CF7DA2 /* ContentView.swift in Sources */,

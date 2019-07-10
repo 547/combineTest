@@ -21,7 +21,6 @@ struct TestView : View {
             Button.init("remove") {
                 self.viewModel.removeData()
             }
-            
         }
     }
 }
