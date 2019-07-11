@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct TestView : View {
-    //ObjectBinding 动态视图属性，自动订阅可绑定对象，在视图发生更改时使视图无效。==> 相当与注册成观察者 （PS：ObjectBinding 修饰的属性必须是继承了BindableObject协议的）
+    //@ObjectBinding 动态视图属性，自动订阅可绑定对象，在视图发生更改时使视图无效。==> 相当与注册成观察者 （PS：ObjectBinding 修饰的属性必须是继承了BindableObject协议的）
     @ObjectBinding var viewModel = ViewModel()
     var body: some View {
         VStack.init(alignment: .leading, spacing: 8) {
